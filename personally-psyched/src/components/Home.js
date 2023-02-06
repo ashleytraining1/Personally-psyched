@@ -1,14 +1,18 @@
 import React from "react";
-import Enroll from "./Enroll";
+import Vision from "./Vision";
 import HomeBanner from "./HomeBanner";
-import Newsletter from "./Newsletter";
+import Mission from "./Mission";
+import Service from "./Service";
+import HomeEvents from "./HomeEvents";
 
 function Home () {
     return (
         <div>
             <HomeBanner/>
-            <Enroll/>
-            <Newsletter/>
+            <Vision/> 
+            <Mission/>
+            <Service/>
+            <HomeEvents/> 
         </div>
         
     )
